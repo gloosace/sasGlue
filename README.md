@@ -9,6 +9,8 @@ A Sas Macro Utility Library
   
   sasGlue的功能主要包括字符串处理、宏与宏变量管理、各种数据结构、数据集管理、IO控制、日志等
   
+  sasGlue的开发者包括：@gloosace @Lenny-cis @andizhu @lavafool
+  
 · 建议的阅读顺序
 ----------------
 
@@ -44,16 +46,16 @@ A Sas Macro Utility Library
 
 · 使用Glue的注意事项
 -----------------
-  ！请注意不要与您自己编写的宏发生宏名称冲突
+  请注意不要与您自己编写的宏发生宏名称冲突
   
-  ！请注意不要误操作sasGlue所使用的全局宏变量（以GLUE_开头）
+  请注意不要误操作sasGlue所使用的全局宏变量（以GLUE_开头）
   
-  ！请注意运行环境（如：options设置）可能与您的使用习惯不同
+  请注意运行环境（如：options设置）可能与您的使用习惯不同
   
-  ！sasGlue中的一些宏会使用sas临时工作区（WORK）与当前文件夹（执行代码所在的文件夹）
+  sasGlue中的一些宏会使用sas临时工作区（WORK）与当前文件夹（执行代码所在的文件夹）
   
-  ！在使用sasGlue中的日志功能前，请注意先完成相关SAS Logging Facility的配置，配置方法可参加测试用例
- 
+  在使用sasGlue中的日志功能前，请注意先完成相关SAS Logging Facility的配置，配置方法可参加测试用例
+  
 · 宏目录
 ------
 
