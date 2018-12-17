@@ -37,7 +37,7 @@ A Sas Macro Utility Library
 · sasGlue对OS与SAS环境有哪些要求？
 -----------------------------
 
-  sasGlue在windows环境开发，如用于其他操作系统请注意重新测试，已知的差异包括：SAS options参数格式差异，路径格式等
+  sasGlue在windows环境开发，如用于其他操作系统请注意重新测试
   
   sasGlue绝大部分功能适应所有sas9.2以上版本，个别非核心功能可能有更高版本要求（如：sha256要求sas9.4）
   
